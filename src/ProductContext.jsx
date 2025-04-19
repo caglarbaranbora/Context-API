@@ -34,3 +34,7 @@ export const ProductProvider = ({ children }) => {
     </ProductContext.Provider>
   );
 };
+
+//CUSTOM HOOK KULLANARAK DA YAPABILIRIZ FAKAT YUKARIDAKI
+//CREATE CONTEXT YAPISININ EXPORTUNU KAPATMAMIZ LAZIM
+// export const useProduct = () => useContext(ProductContext);
